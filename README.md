@@ -14,6 +14,7 @@ Implementation of paper: CrossGCL: Cross-view Graph Contrastive Learning with Du
 
 2. Data Process
 
+   (For a fair comparision, we use the same data and pre-processing scripts used in [Safedrug](https://github.com/ycq091044/SafeDrug) and [COGNET](https://github.com/BarryRun/COGNet))
    1. processing the data
 
       > ```bash
@@ -27,7 +28,7 @@ Implementation of paper: CrossGCL: Cross-view Graph Contrastive Learning with Du
       > ```
       >
 
-3. model train & infer
+4. model train & infer
 
    1. train graph representation learning module
       > ```bash
